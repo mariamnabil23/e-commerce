@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <nav id="nav">
+            <div class="nav-top">
+                <div class="nav-item">
+                    <img src="images/sneakers.png" alt="">
+                </div>
+                <div class="nav-item">
+                    <div class="search">
+                        <input type="text" placeholder="search" class="input-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <span class="limited-offer">limited offer!</span>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <ul>
+                    <li class="list-item">air force</li>
+                    <li class="list-item">jordan</li>
+                    <li class="list-item">blazer</li>
+                    <li class="list-item">crater</li>
+                    <li class="list-item">hippie</li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="slider">
+            <div class="slider-box">
+                <div class="slider-item">
+                    <img src="images/air.png">
+                    <div class="slider-circle"></div>
+                    <h1>air force <br>new<br> season</h1>
+                    <h2>$125</h2>
+                    <a href="#product">
+                        <button class="buybtn">buy now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="images/jordan.png">
+                    <div class="slider-circle"></div>
+                    <h1>jordan<br>new<br> season</h1>
+                    <h2>$140</h2>
+                    <a href="#product">
+                        <button class="buybtn">buy now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="images/blazer.png">
+                    <div class="slider-circle"></div>
+                    <h1>blazer<br>new<br> season</h1>
+                    <h2>$180</h2>
+                    <a href="#product">
+                        <button class="buybtn">buy now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="images/crater.png">
+                    <div class="slider-circle"></div>
+                    <h1>crater<br>new<br> season</h1>
+                    <h2>$200</h2>
+                    <a href="#product">
+                        <button class="buybtn">buy now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="images/hippie.png">
+                    <div class="slider-circle"></div>
+                    <h1>hippie<br>new<br> season</h1>
+                    <h2>$135</h2>
+                    <a href="#product">
+                        <button class="buybtn">buy now!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="features-item">
+                <img src="images/shipping.png" alt="">
+                <span class="feat-title">free shipping</span>
+                <span class="feat-des">free worldwide shipping on all orders</span>
+            </div>
+            <div class="features-item">
+                <img src="images/return.png" alt="">
+                <span class="feat-title">30 days return</span>
+                <span class="feat-des">no question return and easy refund in 14 days</span>
+            </div>
+            <div class="features-item">
+                <img src="images/gift.png" alt="">
+                <span class="feat-title">gift cards</span>
+                <span class="feat-des">buy gift card and use coupon code easily</span>
+            </div>
+            <div class="features-item">
+                <img src="images/contact.png" alt="">
+                <span class="feat-title">contact us!</span>
+                <span class="feat-des">keep in touch via e-mail and support system</span>
+            </div>
+        </div>
+
+        <div class="product" id="product">
+            <img src="images/air.png" alt="" class="product-img">
+            <div class="product-item">
+                <h1 class="product-title">air force</h1>
+                <h2 class="product-price">$125</h2>
+                <p  class="product-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus amet perspiciatis maxime dicta vitae quibusdam, possimus, soluta animi sequi excepturi quis nemo numquam quaerat ipsum saepe obcaecati libero et rerum!</p>
+                <div class="color-item">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="size-item">
+                    <div class="size">38</div>
+                    <div class="size">40</div>
+                    <div class="size">42</div>
+                </div>
+                <button class="product-btn">buy now!</button>
+            </div>
+            <div class="payment">
+                <h1 class="pay-title">personal information</h1>
+                <label>name and surname</label>
+                <input type="text" class="pay-input" placeholder="mariam nabil">
+                <label>phone number</label>
+                <input type="text" class="pay-input" placeholder="+20 0120 827 5570">
+                <label>address</label>
+                <input type="text" class="pay-input" placeholder="sohag str 45">
+                <h1 class="pay-title">card information</h1>
+                <div class="card-icons">
+                    <img src="images/visa.png" alt="" class="card-img" width="40">
+                    <img src="images/master.png" alt="" class="card-img" width="40">
+                </div>
+                <input type="password" class="pay-input" placeholder="card number">
+                <div class="card-info">
+                    <input type="text" class="pay-input cdi" placeholder="mm">
+                    <input type="text" class="pay-input cdi" placeholder="yyy">
+                    <input type="text" class="pay-input cdi" placeholder="cvv">
+                </div>
+                <button class="paybtn">checkout!</button>
+                <span class="close">X</span>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <h1 class="gallery-title">be yourself!</h1>
+                <img class="gallery-img" src="images/1.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/2.jpg" alt="">
+                <h1 class="gallery-title">just do it!</h1>
+            </div>
+            <div class="gallery-item">
+                <h1 class="gallery-title">keep going!</h1>
+                <img class="gallery-img" src="images/3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="newseason">
+            <div class="ns-item">
+                <img class="ns-img" alt="" src="images/ns1.jpg">
+            </div>
+            <div class="ns-item" id="ns-itemEx">
+                <h3 class="nsTitle">winter new arrivals</h3>
+                <h1 class="ns-title">new season</h1>
+                <h1 class="ns-title">new collection</h1>
+                <a href="#nav">
+                    <button class="nsbtn">choose your style!</button>
+                </a>
+            </div>
+            <div class="ns-item">
+                <img class="ns-img" alt="" src="images/ns2.jpg">
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-left">
+                <div class="foot-left-menu">
+                    <h1>About Us</h1>
+                    <ul class="foot-list">
+                        <li class="foot-listitem">Company</li>
+                        <li class="foot-listitem">Careers</li>
+                        <li class="foot-listitem">Stories</li>
+                        <li class="foot-listitem">Affiliates</li>
+                        <li class="foot-listitem">Contact</li>
+                    </ul>
+                </div>
+                <div class="foot-left-menu">
+                    <h1>Products</h1>
+                    <ul class="foot-list">
+                        <li class="foot-listitem">Air Force</li>
+                        <li class="foot-listitem">Jordan</li>
+                        <li class="foot-listitem">Blazer</li>
+                        <li class="foot-listitem">Crater</li>
+                        <li class="foot-listitem">Hippie</li>
+                    </ul>
+                </div>
+                <div class="foot-left-menu">
+                    <h1>Useful Links</h1>
+                    <ul class="foot-list">
+                        <li class="foot-listitem">FAQ</li>
+                        <li class="foot-listitem">Feedback</li>
+                        <li class="foot-listitem">Stories</li>
+                        <li class="foot-listitem">Refund</li>
+                        <li class="foot-listitem">Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="foot-right-menu">
+                    <h1>Subscribe to our Newsletter</h1>
+                    <div class="mail">
+                        <input type="text" class="foot-input" placeholder="mariam@email.com">
+                        <button class="footbtn">Join!</button>
+                    </div>
+                </div>
+                <div class="foot-right-menu">
+                    <h1>Follow Us</h1>
+                    <div class="foot-icons">
+                        <a href="http://www.facebook.com"><img src="images/facebook.png" alt="" class="ficon"></a>
+                        <a href="http://www.whatsapp.com"></a><img src="images/whatsapp.png" alt="" class="ficon"></a>
+                        <a href="http://www.twitter.com"></a><img src="images/twitter.png" alt="" class="ficon"></a> 
+                        <a href="http://www.instagram.com"></a><img src="images/instagram.png" alt="" class="ficon"></a> 
+                    </div>
+                </div>
+                <div class="foot-right-menu">
+                    <span class="copyright">@Mariam Nabil. all rights reserved. 2022.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
